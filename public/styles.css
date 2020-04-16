@@ -120,3 +120,19 @@ header{
 	font-size: 18px;
 
 }
+
+.details h3{
+	text-transform: uppercase;
+	font-weight: bold;
+	color:var(--primary-color);
+}
+
+.details .item span{
+	background-color:gold;
+	border-radius: 16px;
+	padding:8px 16px;
+	margin-right: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	font-size: 16px;
+}
