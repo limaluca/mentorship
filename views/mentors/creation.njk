@@ -1,0 +1,81 @@
+{% extends "layout.njk" %}
+
+{%block content%}
+
+<form class="card" method="POST" action="/mentors">
+    <section class="avatar" style="background:url(https://source.unsplash.com/collection/148095/500x500) no-repeat center center / cover"></section>
+    
+    <section class="details">
+    
+        <h3>Detalhes</h3>
+        <div class="item">
+            <div>Avatar URL</div>
+            <div>
+                <input
+                    type="url"
+                    name="avatar_url"
+                    placeholder="Endereço URL do avatar"
+                >
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Mentor</div>
+            <div>
+                <input
+                    type="text"
+                    name="name"
+                    placeholder="Nome do mentor ou mentora"
+                >
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Deta de nascimento</div>
+            <div>
+                <input
+                    type="date"
+                    name="birth"
+
+                >
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Grau de Escolaridade</div>
+            <div>
+                <select name="education">
+                    <option value="medium"> Ensino Medio Completo</option>
+                    <option value="superior"> Ensino Superior Completo</option>
+                    <option value="master"> Mestre</option>
+                    <option value="doctor"> Doutor</option>  
+                </select>
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Tipo de Aula</div>
+            <div>
+                <span><input type="radio" name="modality" value="presencial">Presencial</span>
+                <span><input type="radio" name="modality" value="distancia">À Distância </span>
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Área de atuação</div>
+            <div>
+                <input
+                    type="text"
+                    name="disciplines"
+                    placeholder="Disciplinas Lecionadas"
+                >
+            </div>
+        </div>
+        
+         <button type="submit"> Salvar</button>
+
+    </section>
+
+</form>
+
+{%endblock content%}
