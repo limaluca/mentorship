@@ -1,0 +1,21 @@
+{
+    "teachers": [
+        {
+            "avatar_url": "https://google.com",
+            "name": "lucas",
+            "birth": 1580342400000,
+            "education": "doctor",
+            "modality": "presencial",
+            "disciplines": "E.L.A"
+        },
+        {
+            "id": 2,
+            "avatar_url": "https://twitter.com",
+            "name": "Lucas",
+            "birth": 1611964800000,
+            "education": "master",
+            "modality": "presencial",
+            "disciplines": "science"
+        }
+    ]
+}
