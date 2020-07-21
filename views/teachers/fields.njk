@@ -1,0 +1,80 @@
+        <div class="item">
+            <div>Avatar URL</div>
+            <div>
+                <input type="url" 
+                name="avatar_url" 
+                placeholder="https://"
+                value= "{{teacher.avatar_url}}"
+                >
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Nome</div>
+            <div>
+                <input 
+                type="text" 
+                name="name" 
+                placeholder="Nome completo"
+                value= "{{teacher.name}}"
+                >
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Data de nascimento</div>
+            <div>
+                <input 
+                type="date" 
+                name="birth"
+                value="{{teacher.birth}}"">
+            </div>
+        </div>
+
+        <div class="item">
+            <div>Grau de Escolaridade</div>
+            <div>
+                <select name="graduation">
+                    <option value="m" {%if teacher.graduation == "m"%} selected {% endif %}>Ensino Médio</option>
+                    
+                    <option value="s" {%if teacher.graduation == "s"%} selected {% endif %}>Ensino Superior</option>
+
+                    <option value="ms" {%if teacher.graduation == "ms"%} selected {% endif %}> Mestre</option>
+                    
+                    <option value="dr" {%if teacher.graduation == "dr"%} selected {% endif %}>Doutor</option>
+                </select>
+            </div>
+        </div>      
+
+        <div class="item">
+            <div>Tipo da aula</div>
+            <div>
+                <span> 
+                    <input 
+                        type="radio" 
+                        name="modality" 
+                        value="d"
+                        {% if teacher.modality == 'd'%} checked {% endif %}} 
+                        >À distancia
+                </span>
+                <span> 
+                    <input
+                        type="radio" 
+                        name="modality" 
+                        value="p" 
+                        {% if teacher.modality == 'p'%} checked {% endif %}}                         
+                        >Presencial
+                </span>
+            </div>
+        </div>  
+
+        <div class="item">
+            <div>Área de atuação</div>
+            <div>
+                <input type="text" 
+                    name="disciplines" 
+                    placeholder="Liste as disciplinas lecionadas"
+                    value ="{{teacher.disciplines}}"
+                >
+            </div>
+        </div>  

@@ -1,0 +1,51 @@
+{
+  "teachers": [
+    {
+      "avatar_url": "https://twitter.com",
+      "name": "Allie",
+      "birth": -24514444800000,
+      "graduation": "m",
+      "modality": "m",
+      "disciplines": "Math, Portuguese, Science",
+      "id": 1
+    },
+    {
+      "avatar_url": "https://i.pinimg.com/originals/4b/4d/9d/4b4d9d3a276c1697a72e70d3c5994d0a.jpg",
+      "name": "Stefani Germanotta",
+      "birth": 512352000000,
+      "graduation": "ms",
+      "modality": "p",
+      "disciplines": "Italian, English, Singing, Dancing",
+      "id": 2
+    },
+    {
+      "avatar_url": "https://4.bp.blogspot.com/-I-F4OilMHKs/Td1QgxoWNSI/AAAAAAAAAEE/SedjdpHrpTk/s1600/sheldon.jpg",
+      "name": "Sheldon Cooper",
+      "birth": 326332800000,
+      "graduation": "dr",
+      "modality": "d",
+      "disciplines": "Theoretical Physics, Geography ",
+      "id": 3
+    },
+    {
+      "avatar_url": "https://s2.glbimg.com/wjBxCoJB25VV2NPRxXrsNCYZmvA=/620x620/smart/e.glbimg.com/og/ed/f/original/2018/02/15/27582234_211735882897692_4733050232160387072_n.jpg",
+      "name": "Pabllo Vittar",
+      "birth": 783648000000,
+      "graduation": "s",
+      "modality": "d",
+      "disciplines": "Expressão Corporal, Dança, Canto Lírico",
+      "id": 4,
+      "created_at": 1595335617994
+    },
+    {
+      "avatar_url": "https://i.pinimg.com/originals/21/d9/ab/21d9ab5d5818328dd3816e99ce42b441.jpg",
+      "name": "Robyn Rihanna Fenty",
+      "birth": 572313600000,
+      "graduation": "ms",
+      "modality": "p",
+      "disciplines": "Singing, Business Skills, Dancing, Make Up Skills",
+      "id": 5,
+      "created_at": 1595340058788
+    }
+  ]
+}
