@@ -103,6 +103,11 @@ header{
 	border-bottom: none;
 }
 
+.details .item:nth-child(7) {
+	border-bottom: none;
+}
+
+
 
 .details .item div:nth-child(1),h3{
 	font-weight: bold;
@@ -141,11 +146,12 @@ header{
 
 /* Formulario */
 
-input,select,button {
+input,select,button,a.button {
 	width:100%;
 	font-size: 16px;
 	font-weight: bold;
 	color: #555;
+	text-decoration: none;
 }
 
 input::placeholder, select{
@@ -163,10 +169,29 @@ input[type="date"]{
 }
 
 
-button{
+button[type="submit"],a.button{
 	background-color: orange;
 	padding: 20px 30px;
 	margin-top:8px;
 	width: 100%;
 
 }
+
+.editButtons{
+	margin-top:20px;
+	margin-bottom: 4px;
+	margin-left: 20px;
+
+
+}
+
+.editButtons a+a{
+	background-color: coral;
+	margin-left:16px;
+
+}
+
+
+
+
+

@@ -2,11 +2,14 @@ const express = require('express')
 const nunjucks = require('nunjucks')
 const routes = require('./routes')
 const server = express() 
+const methodOverride = require('method-override')
+
 
 server.use(express.urlencoded({ extended: true })) //midware para receber os dados no backend
 
 
 server.use(express.static("public")) //observando a pasta public
+server.use(methodOverride('_method'))
 server.use(routes)
 
 server.set("view engine","njk")
