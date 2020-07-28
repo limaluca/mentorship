@@ -178,16 +178,13 @@ button[type="submit"],a.button{
 }
 
 .editButtons{
-	margin-top:20px;
-	margin-bottom: 4px;
-	margin-left: 20px;
 
 
 }
 
-.editButtons a+a{
+#form-delete{
 	background-color: coral;
-	margin-left:16px;
+	margin-top:8px;
 
 }
 

@@ -2,16 +2,38 @@
 
 {%block content%}
 
-<form class = "card" method="POST" action="/instructors">
-    <section class="avatar" style="background: url({{teacher.avatar_url}}) no-repeat center center / cover"></section>
-   
+
+<div class="card">
+    <section 
+        class="avatar" 
+        style="background: url({{teacher.avatar_url}}) no-repeat center center / cover">
+    </section>
+
+    
     <section class="details">
+        <form method="POST" action="/teachers?_method=PUT">
+
         <h3> Editar Docente </h3>
-        
+            
         {# 08/07 #}
         {% include 'teachers/fields.njk' %} 
 
+        <input  type="hidden" 
+                name="id" 
+                value={{teacher.id}}>
+        </form>
+
+        <form method="POST" action="/teachers?_method=DELETE" >
+        <input type="hidden" name="id" value={{teacher.id}}>
+        <button id="form-delete" type="submit"> Deletar</button>
+
+
+        </form>
+
     </section>
-</form>
+
+    
+
+</div>
 
 {%endblock content%}

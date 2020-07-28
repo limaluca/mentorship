@@ -23,7 +23,9 @@ routes.get('/teachers/:id/edit', teachers.edit)
 
 routes.post('/teachers',teachers.post)
 
-routes.put('/teachers', teachers.put)
+routes.put('/teachers', teachers.put) /* 27/08 primeiro passo pro Put*/
+
+routes.delete('/teachers', teachers.delete)
 
 
 module.exports = routes /*  middleware */

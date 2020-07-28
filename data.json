@@ -1,15 +1,6 @@
 {
   "teachers": [
     {
-      "avatar_url": "https://twitter.com",
-      "name": "Allie",
-      "birth": -24514444800000,
-      "graduation": "m",
-      "modality": "m",
-      "disciplines": "Math, Portuguese, Science",
-      "id": 1
-    },
-    {
       "avatar_url": "https://i.pinimg.com/originals/4b/4d/9d/4b4d9d3a276c1697a72e70d3c5994d0a.jpg",
       "name": "Stefani Germanotta",
       "birth": 512352000000,
@@ -41,10 +32,10 @@
       "avatar_url": "https://i.pinimg.com/originals/21/d9/ab/21d9ab5d5818328dd3816e99ce42b441.jpg",
       "name": "Robyn Rihanna Fenty",
       "birth": 572313600000,
-      "graduation": "ms",
+      "graduation": "dr",
       "modality": "p",
-      "disciplines": "Singing, Business Skills, Dancing, Make Up Skills",
-      "id": 5,
+      "disciplines": "Singing, Business Skills, Dancing, Make Up Skills, Enterprise Managment",
+      "id": "5",
       "created_at": 1595340058788
     }
   ]
